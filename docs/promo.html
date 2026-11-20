@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      html, body { margin: 0; width: 440px; height: 280px; overflow: hidden; }
+      body {
+        background: #f3efe6;
+        color: #1c1915;
+        font-family: "Liberation Sans", "DejaVu Sans", sans-serif;
+        display: grid;
+        grid-template-columns: 1fr 168px;
+      }
+      .copy { padding: 22px 8px 18px 22px; }
+      .mark { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 18px; }
+      h1 {
+        font-family: "Liberation Serif", Georgia, serif;
+        font-size: 28px;
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+        margin: 14px 0 8px;
+      }
+      p { margin: 0; color: #5e574c; font-size: 13px; line-height: 1.35; }
+      .card {
+        margin: 22px 18px 22px 0;
+        background: #fffdf8;
+        border: 1px solid #e3d9c8;
+        border-radius: 16px;
+        padding: 12px;
+        align-self: center;
+      }
+      .card b { display: block; font-family: Georgia, serif; font-size: 14px; line-height: 1.2; }
+      .card span { display: block; color: #5e574c; font-size: 11px; margin: 6px 0; }
+      .card em { font-style: normal; background: #ffe08a; border-radius: 3px; }
+      .eyebrow { color: #b8422f; font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; margin-top: 12px; }
+    </style>
+  </head>
+  <body>
+    <div class="copy">
+      <div class="mark">
+        <svg width="28" height="28" viewBox="0 0 128 128" aria-hidden="true">
+          <rect width="128" height="128" rx="28" fill="#1c1915" />
+          <path d="M44 22h48v86L68 90 44 108V22z" fill="#f4efe6" />
+          <path d="M60 22h16v48l-8-8-8 8V22z" fill="#b8422f" />
+        </svg>
+        Unforget
+      </div>
+      <h1>Find that article by what it said.</h1>
+      <p>Full-text search of every page you've read. Private, on this device.</p>
+      <div class="eyebrow">Ask AI about anything you've read</div>
+    </div>
+    <div class="card">
+      <b>Solid-state batteries</b>
+      <span>lab.example · 3 days ago</span>
+      <span>A <em>ceramic electrolyte</em> conducts ions without a flammable liquid.</span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "unforget-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for a local Unforget reading-history export.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "unforget-mcp": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
